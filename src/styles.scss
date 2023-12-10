@@ -113,15 +113,13 @@ body {
   align-items: center;
 }
 
-.header {
-  display: flex;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100px; 
-}
 .logo {
-  width: 50px; /* Adjust the width as needed */
-  height: 50px; /* Adjust the height as needed */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
 }
