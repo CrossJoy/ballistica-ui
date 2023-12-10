@@ -172,9 +172,9 @@ $mat-primary: (
 $theme-primary: mat.define-palette($mat-primary, main, lighter, darker);
 
 body {
-  --accent-color: #3e00bd;
-  --accent-lighter-color: #c5b3eb;
-  --accent-darker-color: #2800a6;
+  --accent-color: #ffaa39;
+  --accent-lighter-color: #fff6c3;
+  --accent-darker-color: #ffaf24;
   --text-accent-color: #{$light-primary-text};
   --text-accent-lighter-color: #{$dark-primary-text};
   --text-accent-darker-color: #{$light-primary-text};
