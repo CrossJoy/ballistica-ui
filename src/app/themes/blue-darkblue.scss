@@ -93,9 +93,9 @@ $light-bg-darker-10: darken($light-background, 10%);
 $light-bg-darker-20: darken($light-background, 20%);
 $light-bg-darker-30: darken($light-background, 30%);
 $light-bg-lighter-5: lighten($light-background, 5%);
-$dark-bg-tooltip: lighten(#3e00bd, 20%);
-$dark-bg-alpha-4: rgba(#3e00bd, 0.04);
-$dark-bg-alpha-12: rgba(#3e00bd, 0.12);
+$dark-bg-tooltip: lighten(#bd7800, 20%);
+$dark-bg-alpha-4: rgba(#bd7100, 0.04);
+$dark-bg-alpha-12: rgba(#bd5e00, 0.12);
 
 $mat-light-theme-background: (
   background: $light-background,
@@ -121,8 +121,8 @@ $dark-bg-lighter-5: lighten($dark-background, 5%);
 $dark-bg-lighter-10: lighten($dark-background, 10%);
 $dark-bg-lighter-20: lighten($dark-background, 20%);
 $dark-bg-lighter-30: lighten($dark-background, 30%);
-$light-bg-alpha-4: rgba(#1648e1, 0.04);
-$light-bg-alpha-12: rgba(#1648e1, 0.12);
+$light-bg-alpha-4: rgba(#e1b816, 0.04);
+$light-bg-alpha-12: rgba(#e1ab16, 0.12);
 
 // Background palette for dark themes.
 $mat-dark-theme-background: (
@@ -160,7 +160,7 @@ $mat-primary: (
   main: #F8F1E9,
   lighter: #F6E6D7,
   darker: #F4DBBF,
-  200: #3769ff,
+  200: #F8F1E9,
   // For slide toggle,
   contrast:
     (
@@ -183,7 +183,7 @@ $mat-accent: (
   main: #F8F1E9,
   lighter: #F6E6D7,
   darker: #F4DBBF,
-  200: #3e00bd,
+  200: #F8F1E9,
   // For slide toggle,
   contrast:
     (
