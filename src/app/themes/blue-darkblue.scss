@@ -87,7 +87,7 @@ $mat-dark-theme-foreground: (
 
 // Background config
 // Light bg
-$light-background: #1648e1;
+$light-background: #F8F1E9;
 $light-bg-darker-5: darken($light-background, 5%);
 $light-bg-darker-10: darken($light-background, 10%);
 $light-bg-darker-20: darken($light-background, 20%);
@@ -116,7 +116,7 @@ $mat-light-theme-background: (
 );
 
 // Dark bg
-$dark-background: #3e00bd;
+$dark-background: #F1E7D9;
 $dark-bg-lighter-5: lighten($dark-background, 5%);
 $dark-bg-lighter-10: lighten($dark-background, 10%);
 $dark-bg-lighter-20: lighten($dark-background, 20%);
@@ -157,9 +157,9 @@ body {
   --text-primary-darker-color: #{$light-primary-text};
 }
 $mat-primary: (
-  main: #3769ff,
-  lighter: #c3d2ff,
-  darker: #234cff,
+  main: #F8F1E9;,
+  lighter: #F6E6D7,
+  darker: #F4DBBF,
   200: #3769ff,
   // For slide toggle,
   contrast:
@@ -180,9 +180,9 @@ body {
   --text-accent-darker-color: #{$light-primary-text};
 }
 $mat-accent: (
-  main: #3e00bd,
-  lighter: #c5b3eb,
-  darker: #2800a6,
+  main: #F8F1E9,
+  lighter: #F6E6D7,
+  darker: #F4DBBF,
   200: #3e00bd,
   // For slide toggle,
   contrast:
@@ -203,10 +203,10 @@ body {
   --text-warn-darker-color: #{$light-primary-text};
 }
 $mat-warn: (
-  main: #ff0000,
-  lighter: #ffb3b3,
-  darker: #ff0000,
-  200: #ff0000,
+  main: #F8F1E9
+  lighter: #F6E6D7,
+  darker: #F4DBBF,
+  200: #F4DBBF,
   // For slide toggle,
   contrast:
     (
