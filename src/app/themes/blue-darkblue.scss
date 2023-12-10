@@ -87,7 +87,7 @@ $mat-dark-theme-foreground: (
 
 // Background config
 // Light bg
-$light-background: #F8F1E9;
+$light-background: #f8f1e9;
 $light-bg-darker-5: darken($light-background, 5%);
 $light-bg-darker-10: darken($light-background, 10%);
 $light-bg-darker-20: darken($light-background, 20%);
@@ -116,7 +116,7 @@ $mat-light-theme-background: (
 );
 
 // Dark bg
-$dark-background: #F1E7D9;
+$dark-background: #f1e7d9;
 $dark-bg-lighter-5: lighten($dark-background, 5%);
 $dark-bg-lighter-10: lighten($dark-background, 10%);
 $dark-bg-lighter-20: lighten($dark-background, 20%);
@@ -149,15 +149,15 @@ $mat-dark-theme-background: (
 // Theme Config
 
 body {
-  --primary-color: #3769ff;
-  --primary-lighter-color: #c3d2ff;
-  --primary-darker-color: #234cff;
+  --primary-color: #ffaa39;
+  --primary-lighter-color: #fff6c3;
+  --primary-darker-color: #ffaf24;
   --text-primary-color: #{$light-primary-text};
   --text-primary-lighter-color: #{$dark-primary-text};
   --text-primary-darker-color: #{$light-primary-text};
 }
 $mat-primary: (
-  main: #F8F1E9;,
+  main: #F8F1E9,
   lighter: #F6E6D7,
   darker: #F4DBBF,
   200: #3769ff,
@@ -203,7 +203,7 @@ body {
   --text-warn-darker-color: #{$light-primary-text};
 }
 $mat-warn: (
-  main: #F8F1E9
+  main: #F8F1E9,
   lighter: #F6E6D7,
   darker: #F4DBBF,
   200: #F4DBBF,
